@@ -1,0 +1,33 @@
+body{
+	font-size:100%;
+}
+a, a:hover{text-decoration:none;}
+.flexSpaceBetween{
+	display:flex;
+	justify-content:space-between;
+}
+.flexVCenter{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+	align-items:center;
+}
+.flexVCenterSb{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+}
+.noBgColor{
+	background:none !important;
+	color:initial;
+}
+.noBorder{
+	border:none;
+}
+.noShadow{
+	box-shadow:none;
+}
+.clearb{margin:0; padding:0; clear:both;}
