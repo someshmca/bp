@@ -19,6 +19,10 @@
 	font-family:Roboto-Bold;
 	src:url("../fonts/Roboto-Bold.ttf");
 }
+@font-face{
+	font-family:Roboto-LightItalic;
+	src:url("../fonts/Roboto-LightItalic.ttf");
+}
 
 @font-face{
 	font-family:Quicksand-Regular;

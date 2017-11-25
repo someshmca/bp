@@ -1,11 +1,13 @@
 @import url("common.css");
 @import url("fonts.css");
-
+@import url("slick-custom.css");
+@import url("home-images-carousel.css");
 
 .section1{
 	border-top:3px solid #e40046;
-	/* background:url("../images/header-slider-bg.jpg") 0 3px repeat-x; */
-	background:#bebfc3;
+	background:url("../images/header-slider-bg.jpg") 0 3px repeat; 
+	/* background:#bebfc3;*/
+	padding-bottom:80px;
 }
 .mainHeader{
 	padding:20px;
@@ -55,10 +57,16 @@
 .headerNav .navbar-nav li:hover, .headerNav .navbar-nav li a:hover{
 	color:#f41459;
 }
-.homeSliderArea{
+.homeBannerArea{
 	clear: both;
+	width:100%;
 }
-.homeSlider1Text{
+.homeBannerCarousel{
+	width:100%;
+	height:450px;
+}
+
+.homeBanner1Text{
 	/*display: flex;
 	display:-webkit-flex;
 	align-items: center;
@@ -66,11 +74,11 @@
 	*/	
 	color:#1d3459;
 }
-.col-lg-5 .homeSlider1Text,
-.col-md-5 .homeSlider1Text{
+.col-lg-5 .homeBanner1Text,
+.col-md-5 .homeBanner1Text{
 	height:450px;
 }
-.homeSlider1Text h1{
+.homeBanner1Text h1{
 	/*position:relative;
 	top:30%;*/
 	font-family:Roboto-Bold;
@@ -79,18 +87,45 @@
 	padding:5px 0;
 	text-transform:uppercase;
 }
-.homeSlider1Text p{
+.homeBanner1Text p{
 	font-family:Roboto-Light;
 	font-size:16px;
 	margin:0;
 	padding:5px 0;
 }
-.homeSlider1ImagesArea{
+.homeBanner1ImagesArea{
 	margin: 0;
 	height:450px;
 }
-.homeSlider1ImagesArea .imagesWrap img{
+.homeBanner1ImagesArea .imagesWrap img{
 	display:inline-block;
+}
+.homeBanner2Text{
+	height:100%;
+}
+.homeBanner2Text h1{
+	/*position:relative;
+	top:30%;*/
+	font-family:Roboto-Bold;
+	font-size:53px;
+	margin:0;
+	padding:5px 0;
+	text-transform:uppercase;
+}
+.homeBanner2Text h1 span{
+	color:#e40046;
+}
+.homeBanner2Btn1{
+	margin-top:15px;
+	background:#e40046;
+	color:#fff;
+	padding:8px 20px;
+	display:inline-block;
+	font-family:Roboto-LightItalic;
+	cursor:pointer;
+	font-size:16px;
+	text-transform:uppercase;
+	border-radius:25px;
 }
 .section2{
 	padding:15px 0;
@@ -227,7 +262,7 @@
 	border:1px solid #e40046;
 	background:none;
 	width:30%;
-	margin:10px 0;
+	margin:7px 0;
 }
 .whyChooseContentBox{
 	padding:15px;
@@ -240,9 +275,7 @@
 	color:#1c1c1c;
 	text-align:left;
 	padding:0;
-	padding-bottom:10px;
 	margin:0;
-	margin-bottom:9px;
 }
 .whyChooseContentBox p{
 	font-family:"Myriad Pro";
@@ -252,7 +285,6 @@
 	padding:0;
 	padding-bottom:10px;
 	margin:0;
-	margin-bottom:9px;
 }
 .section4{
 	margin:0;
@@ -314,18 +346,37 @@
 }
 .imgTypeCarouselImg{
 	border:12px solid #fff;	
+	width:300px;
+	height:250px;
+	margin:0;
+	padding:0;
 }
-.imgTypeCarouselImg img{
-	width:100%;
+.imgTypeCarouselImg img, .owl-carousel .imgTypeCarouselImg img{
+	/* width:100%; */
+	width:276px;
+	height:226px;
 }
 .footerMain{
 	background:#142342;
 	padding-top:20px;
 	padding-bottom:15px;
 }
-.footerMain .col-md-3, .footerMain .col-lg-3{
-	border-right:1px dashed #576277;
+.footerMain .row{
+	display:table;
 }
+.footerMain [class*="col-md-"], .footerMain [class*="col-lg-"]{
+	display:table-cell;
+	float:none;
+	vertical-align:top;
+	border-right:1px dashed #576277;
+}/*
+.footerMain [class*="col-xs-"]{
+	display:block;
+	float:initial;
+	vertical-align:initial;
+}
+.footerMain not:[class*="col-xs-"]{
+}*/
 .footerMain .col-md-3, .footerMain .col-lg-3{
 	padding-left:5%;
 }
@@ -351,10 +402,45 @@
 .footerIcons a:hover{
 	color:#fff;
 }
+.footerMain h5{
+	margin-bottom:20px;
+	font-size:16px;
+}
 .footerMain h5, .footerMain p,  .footerMain p a{
 	font-family:Myriad Pro;
 	font-size:14px;
 	color:#fff;
 }
-
+.footerInputTextBox{
+	background:#25476a;
+	color:rgba(255,255,255,0.5);
+	border-radius:15px;
+	border:none;
+}
+.footerGoButton{
+	background:rgba(32,60,94,1);
+	color:#ffffff;
+	border-radius:50%;
+	cursor:pointer;
+	border:none;	
+}
+.footerGoButton:hover{
+	background:rgba(32,60,94,0.7);
+}
+.footerGoButton:active{
+	background:rgba(32,60,94,0.6);
+}
+.footerCopyRightText{
+	margin-top:20px;
+	border-top:1px dashed #576277;
+	color:#ffffff;
+}
+.footerCopyRightText .container{
+	padding-left:0;
+}
+.footerCopyRightText p{
+	padding:0;
+	padding-top:25px;
+	padding-bottom:15px;
+}
 

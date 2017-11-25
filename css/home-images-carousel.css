@@ -1,0 +1,93 @@
+.homeImagesCarouselArea{
+	width:100%;
+	position:relative;
+}
+
+.owl-carousel.homeImagesCarousel{
+}
+.owl-carousel.homeImagesCarousel .owl-stage-outer{
+	width:93%;
+	margin:0 auto;
+	position:relative;
+	left:20px;
+}
+.owl-carousel.homeImagesCarousel .owl-stage-outer .owl-stage{
+	
+}
+.owl-theme .owl-nav{
+	position:absolute;
+	width:100%;
+	top:40%;
+}
+.owl-carousel.homeImagesCarousel .owl-nav .owl-prev{
+	position:absolute;
+	top:40%;
+	left:1px;
+	background:none;
+	color:rgba(0,0,0,0.8);
+}
+.owl-carousel.homeImagesCarousel .owl-nav .owl-next{
+	position:absolute;
+	top:40%;
+	right:-36px;
+	background:none;
+	color:rgba(0,0,0,0.8);
+}
+/*  
+#homeImagesCarousel
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+#homeImagesCarousel .carousel-inner{
+	width:90%;
+	margin:0 auto;
+}
+#homeImagesCarousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+#homeImagesCarousel .carousel-control.left 
+{
+  left: -12px;
+}
+#homeImagesCarousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+#homeImagesCarousel img
+{
+ 
+}
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+@media (min-width: 768px) { 
+    #homeImagesCarousel
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+*/
