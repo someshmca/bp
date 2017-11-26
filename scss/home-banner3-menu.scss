@@ -1,0 +1,60 @@
+
+$banner3MenuBorderWidth:7px;
+@mixin banner3menu($borderWidth, $borderColor){
+	width:124px !important;
+	height:124px !important;
+	border-radius:50% !important;
+	margin:1em;
+	padding:8px;
+	word-wrap:break-word !important;
+	white-space:normal;
+	font-family:Roboto-LightItalic;
+	color:#ffffff !important;
+	text-align:center;
+	font-size:14px;
+	text-transform:uppercase;
+	border-width:$borderWidth;
+	border-style:solid;
+	border-color:$borderColor;
+}
+@mixin flexCenter{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.banner3Rmenu1{
+	@include banner3menu($banner3MenuBorderWidth, #61c46e);
+	@include flexCenter;
+	background:#41b851 !important;
+}
+.banner3Rmenu2{
+	@include banner3menu($banner3MenuBorderWidth, #f14b52);
+	@include flexCenter;
+	background:#ee252d !important;
+}
+.banner3Rmenu3{
+	@include banner3menu($banner3MenuBorderWidth,#31bef2);
+	@include flexCenter;
+	background:#0ab1f0 !important;
+}
+.banner3Rmenu4{
+	@include banner3menu($banner3MenuBorderWidth,#f383a7);
+	@include flexCenter;
+	background:#f16a95 !important;
+}
+.banner3Rmenu5{
+	@include banner3menu($banner3MenuBorderWidth,#388762);
+	@include flexCenter;
+	background:#0f6e41 !important;
+}
+.banner3Rmenu6{
+	@include banner3menu($banner3MenuBorderWidth,#f9a94b);
+	@include flexCenter;
+	background:#f79826 !important;
+}
+.banner3Rmenu7{
+	@include banner3menu($banner3MenuBorderWidth,#a88dc1);
+	@include flexCenter;
+	background:#9677b5 !important;
+}
+

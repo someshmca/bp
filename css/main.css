@@ -2,6 +2,8 @@
 @import url("fonts.css");
 @import url("slick-custom.css");
 @import url("home-images-carousel.css");
+@import url("radial-menu1.css");
+@import url("home-banner3-menu.css");
 
 .section1{
 	border-top:3px solid #e40046;
@@ -95,7 +97,7 @@
 }
 .homeBanner1ImagesArea{
 	margin: 0;
-	height:450px;
+	height:100%;
 }
 .homeBanner1ImagesArea .imagesWrap img{
 	display:inline-block;
@@ -126,6 +128,42 @@
 	font-size:16px;
 	text-transform:uppercase;
 	border-radius:25px;
+}
+.homeBanner3Text{
+	height:100%;
+}
+.homeBanner3Text h1{
+	/*position:relative;
+	top:30%;*/
+	font-family:Roboto-Bold;
+	font-size:53px;
+	margin:0;
+	padding:5px 0;
+	text-transform:uppercase;
+}
+.homeBanner3Text h1 span{
+	color:#e40046;
+}
+.homeBanner3Text p{
+	font-family:Roboto-Light;
+	font-size:16px;
+	margin:0;
+	padding:5px 0;
+	margin-top:12px;
+	color:#1d3459;
+}
+.homeBanner3ImagesArea{
+	margin: 0;
+	height:100%;
+	position:relative;
+	top:40px;
+}
+.homeBanner3ImagesArea .imagesWrap img{
+	display:inline-block;
+}
+.banner3RadialMenu .trigger img{
+	width:168px;
+	height:172px;
 }
 .section2{
 	padding:15px 0;
@@ -158,8 +196,8 @@
 	/* height:260px; */
 }
 .bannerAdTypeSlideImages img{
-	height:255px;
-	max-width:95%;
+	width:300px;
+	height:250px;
 }
 .bannerAdTypeSlideArrows{
 	/*display:-webkit-flex;
@@ -182,6 +220,8 @@
 	padding:5px 8px;
 	background:#000000;
 	margin-bottom:10px;
+	margin-left:7px;
+	cursor:pointer;
 }
 .bannerAdTypeSlideArrowUp:hover, 
 .bannerAdTypeSlideArrowDown:hover{
@@ -444,3 +484,6 @@
 	padding-bottom:15px;
 }
 
+.height100Perc{
+	height:100%;
+}
