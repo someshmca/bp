@@ -15,8 +15,9 @@
     height: 100%;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.15);
-    opacity: 0;
+    /*opacity: 0;
     z-index: -10;
+	*/
     cursor: pointer;
     transition: opacity 1s, z-index 0.3s, transform 1s;
     transform: translateX(0); }
@@ -59,49 +60,73 @@
 .rotater:nth-child(1) {
   transform: rotate(-22.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(1) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(1) .btn-icon {
   transform: translateY(-10em) rotate(22.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(1) .btn-icon {
+  transform: translateY(-8em) rotate(22.5deg); }
 
 .rotater:nth-child(2) {
   transform: rotate(22.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(2) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(2) .btn-icon {
   transform: translateY(-10em) rotate(-22.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(2) .btn-icon {
+  transform: translateY(-8em) rotate(-22.5deg); }
 
 .rotater:nth-child(3) {
   transform: rotate(67.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(3) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(3) .btn-icon {
   transform: translateY(-10em) rotate(-67.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(3) .btn-icon {
+  transform: translateY(-8em) rotate(-67.5deg); }
 
 .rotater:nth-child(4) {
   transform: rotate(112.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(4) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(4) .btn-icon {
   transform: translateY(-10em) rotate(-112.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(4) .btn-icon {
+  transform: translateY(-8em) rotate(-112.5deg); }
 
 .rotater:nth-child(5) {
   transform: rotate(157.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(5) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(5) .btn-icon {
   transform: translateY(-10em) rotate(-157.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(5) .btn-icon {
+  transform: translateY(-8em) rotate(-157.5deg); }
 
 .rotater:nth-child(6) {
   transform: rotate(202.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(6) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(6) .btn-icon {
   transform: translateY(-10em) rotate(-202.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(6) .btn-icon {
+  transform: translateY(-8em) rotate(-202.5deg); }
 
 .rotater:nth-child(7) {
   transform: rotate(247.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(7) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(7) .btn-icon {
   transform: translateY(-10em) rotate(-247.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(7) .btn-icon {
+  transform: translateY(-8em) rotate(-247.5deg); }
 
 .rotater:nth-child(8) {
   transform: rotate(292.5deg); }
 
-.banner3RadialMenu.active .rotater:nth-child(8) .btn-icon {
+.banner3RadialMenu .rotater:nth-child(8) .btn-icon {
   transform: translateY(-10em) rotate(-292.5deg); }
+
+.banner3RadialMenu.active .rotater:nth-child(8) .btn-icon {
+  transform: translateY(-8em) rotate(-292.5deg); }
 
 /*# sourceMappingURL=radial-menu1.css.map */
